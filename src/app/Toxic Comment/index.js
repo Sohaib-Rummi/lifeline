@@ -3,7 +3,7 @@ const {spawn} = require('child_process');
 const path = require('path');
 const app = express();
 const port = 3000;
-
+// start function
 app.use(express.json());
 app.get('/', (req, res) => {
   res.send(`<h1>Toxic Comment API</h1>`);
